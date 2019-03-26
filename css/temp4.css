@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+   
+}
+
+/******************** Start Header*******************/
+.container {
+    width: 1300px;
+    margin: auto;
+}
+p, span {
+  font-family: 'Raleway', sans-serif;
+}
+.header {
+    height: 950px;
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    position: relative;
+ 
+}
+.header .header-head {
+    padding-top: 40px;
+}
+.header .header-head img{
+    float: left;
+    
+}
+.header .header-head nav ul {
+    float: right;
+    list-style: none;
+   
+}
+.header .header-head nav ul li{
+    display: inline-block;
+    padding-left:10px;
+    
+}
+.header .header-head nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+.clearfix {
+     clear: both;
+}
+
+.header .header-contant {
+    width: 700;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.header .header-contant h1{
+    font-size: 50px;
+   font-weight: bold;
+    color: #fff;
+    margin-bottom: 2%;
+
+}
+.header .header-contant p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 15px;
+    margin-bottom: 3%;
+}
+.header .header-contant button {
+    width: 180px;
+    padding: 15px;
+    margin-left: 20px;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase; 
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+    
+    
+    
+}
+.header .header-contant button:first-child {
+    background: #fff;
+    color: #000;
+    
+}
+.header .header-contant button:last-child {
+    background: #8be2e5;
+    color: #fff;
+    
+}
+.header .header-contant button:last-child:hover {
+    background: #00f;
+}
+.header .header-footer {
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    border-radius: 25px;
+    border: 3px solid #ccc
+}
+.header .header-footer .scrolling {
+    background: #fff;
+    width: 5px;
+    height: 12px;
+   
+    margin: auto;
+    position: relative;
+    top: 10%;
+    border-radius: 30%;
+    animation: scrolling 1.5s ease-in-out infinite;
+ 
+}
+
+@keyframes scrolling {
+    0% {
+        opacity: 0;
+        top: 5px;
+    }
+    30% {
+        opacity: 1;
+        top: 10px;
+    }
+    100% {
+        opacity: 0;
+        top: 25px;
+    }
+}
+
+/******************** End Header************************************/
+
+/******************** Start be the first section *******************/
+
+.BeFrist {
+    height: 700px;
+    margin: auto;
+    background-image: url(../images/be-the-first-bg.jpg);
+    padding-top: 10%;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 10%;
+    
+}
+
+.BeFrist .befrist-header h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.BeFrist .befrist-header p {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 45px
+}
+.BeFrist .befirst-img {
+ 
+    margin: auto;
+}
+.BeFrist .befirst-img img {
+    width: 400px; 
+}
+
+
+/******************** End be the first section *******************/
+/*********************Start feature section ********************/
+.feature {
+      padding-bottom: 25%;
+}
+
+.feature .feature-app {
+     width: 30%;
+     margin-left: 5%;
+    float: left;
+}
+.feature .feature-app h2 {
+    font-size: 18px;
+    color: #000;
+    margin-top: 5%;
+}
+.feature .feature-app p {
+    line-height: 1.4;
+    color: #929496;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.feature .feature-app:nth-of-type(1) {
+    margin-left: 0;
+}
+.feature .feature-app:nth-of-type(1) hr {
+    height: 5px;
+    background: #6d3f96;
+    border: 0;
+}
+.feature .feature-app:nth-of-type(2) hr {
+    height: 5px;
+    background: #70cbce;
+    border: 0;
+}
+.feature .feature-app:nth-of-type(3) hr {
+    height: 5px;
+    background: #fdc05d;
+    border: 0;
+}
+
+
+/********************* end feature section ********************/
+
+/*********************** Start Pricing ****************************/
+
+.pricing {
+     padding-bottom: 10%;
+    padding-top: 10%; 
+    background: #70cbce;
+    text-align: center;
+    height: auto;
+    
+
+}   
+.pricing h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 2%;
+}
+.pricing p {
+    font-size: 20px;
+    color: #fff;
+   margin-bottom: 4%;
+    
+}
+
+.pricing .pricing-flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.pricing .pricing-flex .flex-item {
+    width: 32%;
+}
+.pricing .pricing-flex .flex-item:nth-of-type(1),
+.pricing .pricing-flex .flex-item:nth-of-type(3) {
+    margin-top: 2%;
+}
+.pricing .pricing-flex .flex-item ul {
+    list-style: none;
+    background: #fff;
+     border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    transition: all .5s ease-in-out
+}
+.pricing .pricing-flex .flex-item ul:hover{
+    margin-top: -15px;
+}
+.pricing .pricing-flex .flex-item ul:hover li.doller{
+    background: #333
+}
+.pricing .pricing-flex .flex-item ul li.pricing {
+    background: #231f20;
+    color: #fff;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.pricing .pricing-flex .flex-item ul li.doller{
+    background: #231f20;
+    color: #fff;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    transition: all 1s ease-in-out
+}
+.pricing .pricing-flex .flex-item ul li.doller small {
+    font-weight: normal;
+    color: #ddd;
+}
+.pricing .pricing-flex .flex-item ul li.list{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    border-bottom: 1px dotted #E8EAEA;
+}
+.pricing .pricing-flex .flex-item ul li.content {
+    color: #929496;
+    padding: 20px;
+    font-size: 13px;
+    font-weight: normal;
+}
+.pricing .pricing-flex .flex-item ul li.btn:hover{
+    background: #f5f5f5;
+    cursor: pointer;
+}
+.pricing .pricing-flex .flex-item ul li.btn{
+    padding: 15px;
+    color: #70cbce;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+
+
+/*********************** End Pricing ****************************/
+
+/*********************** Start Invite **************************/
+
+.invite {
+    background: #f5f5f5; 
+    height: auto;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+.invite i {
+    color: #70cbce;
+
+    padding: 20px;
+    border: 2px solid #70cbce;
+    border-radius: 30px;
+    margin-bottom: 2%;
+}
+.invite h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.invite p {
+    margin-bottom: 2%;
+}
+.invite input {
+    display: block;
+    width: 350px;
+    border: 0;
+    outline: 0;
+    margin: auto;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 2%;
+    border-radius: 10px
+}
+.invite input::-webkit-input-placeholder{
+    color: #aaa;
+}
+.invite button {
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 20px;
+    background: #70cbce;
+    color: #fff;
+    border: 0;
+    outline: 0;
+}
+
+/*********************** end Invite **************************/
+
+/*******************  start info  *************************/
+.info {
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+.info hr {
+    border: 0;
+    background: E8EAEA;
+    height: 3px;
+}
+.info .info-desc {
+    width: 70%;
+    margin: auto;
+}
+.info-desc .info-img {
+    width: 20%;
+    float: left;
+}
+.info-desc .info-information {
+    float: left;
+    width: 80%;
+}
+
+
+/*******************  End info  *************************/
+
+
+/******************* Start footer *****************/
+footer {
+    padding-bottom: 5%;
+}
+.left {
+    float: left;
+}
+.left span {
+    padding-right: 10px;
+}
+.left i{
+    padding-right: 5px;
+    cursor: pointer;
+}
+.right {
+    float: right;
+}
+.right span {
+    color: #aaa;
+}
+/******************* Start footer *****************/
+
